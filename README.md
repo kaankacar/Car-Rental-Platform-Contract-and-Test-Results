@@ -12,8 +12,8 @@ The Car Rental Platform is a smart contract written in Solidity that enables use
 
 Before using the Car Rental Platform contract, make sure you have the following:
 
-- An Ethereum wallet or an account on a compatible blockchain platform.
-- Sufficient Ether (ETH) to pay for gas fees and make payments.
+- A wallet or an account on a compatible blockchain platform.
+- Sufficient BNB to pay for gas fees and make payments.
 
 ## Contract Functions
 
@@ -66,7 +66,7 @@ Before using the Car Rental Platform contract, make sure you have the following:
    - Modifier: onlyOwner
    - Withdraws the contract's balance to the owner's address.
    - Parameters:
-     - `amount` (uint): The amount of Ether to withdraw.
+     - `amount` (uint): The amount of BNB to withdraw.
    - Usage: Call this function to transfer the contract's balance to the owner.
 
 ### Query Functions
